@@ -1,0 +1,41 @@
+:root {
+    --purple: #182848;
+}
+/* Designing the carousel */
+.carousel {
+    font-size: 3rem;
+}
+
+.carousel .carousel-item .carousel-caption h5{
+    font-size: 2rem;
+}
+
+.carousel .carousel-item .carousel-caption p {
+    font-size: 1.5rem;
+}
+
+.carousel img {
+    height: 65rem;
+}
+/* End of carousel */
+
+#latest h2 {
+    text-transform: uppercase;
+}
+
+#latest .latest-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#latest .latest-products img {
+    padding: 3rem 1.5rem;
+    width: 50%;
+}
+
+#latest .latest-products img:hover {
+    border-bottom: 0.5rem solid var(--purple);
+    cursor: pointer;
+}
