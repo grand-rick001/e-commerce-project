@@ -2,6 +2,7 @@
     font-size: 62.5%;
     margin: 0;
     padding: 0;
+    --purple: #182848;
 }
 
 
@@ -26,6 +27,13 @@ header {
 
 header nav ul.navbar-nav * {
     margin-right: 1.5rem;
+}
+
+header a.login {
+    border: 0.2rem solid var(--purple);
+    margin-right: 2rem;
+    padding: .5rem;
+    font-size: 1.5rem;
 }
 /* End of header */
 
