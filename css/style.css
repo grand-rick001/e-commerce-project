@@ -31,6 +31,20 @@ a {
 header nav {
     font-size: 2.5rem;
 }
+
+/* Designing the navbar */
+header nav ul.navbar-nav * {
+    margin-right: 1.5rem;
+}
+
+header a.login {
+    border: 0.2rem solid var(--purple);
+    margin-right: 2rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+/* End of navbar */
+
 /* End of header */
 
 main {
