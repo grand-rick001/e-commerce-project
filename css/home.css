@@ -1,6 +1,22 @@
 :root {
     --purple: #182848;
 }
+
+
+/* Designing the navbar */
+header nav ul.navbar-nav * {
+    margin-right: 1.5rem;
+}
+
+header a.login {
+    border: 0.2rem solid var(--purple);
+    margin-right: 2rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+/* End of navbar */
+
+
 /* Designing the carousel */
 .carousel {
     font-size: 3rem;
@@ -15,7 +31,8 @@
 }
 
 .carousel img {
-    height: 65rem;
+    height: 90vh;
+    width: 100vw;
 }
 /* End of carousel */
 
@@ -24,18 +41,29 @@
 }
 
 #latest .latest-products {
-    display: flex;
+    display:flex;
     justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-wrap:wrap;
+    flex-direction:row;
+    text-align: center;
 }
 
-#latest .latest-products img {
-    padding: 3rem 1.5rem;
-    width: 50%;
+#latest .latest-products a {
+    color: var(--purple);
 }
 
-#latest .latest-products img:hover {
+#latest .latest-products a img {
+    padding: 1.5rem 1.5rem;
+    width: 40rem;
+}
+
+#latest .latest-products a img:hover {
     border-bottom: 0.5rem solid var(--purple);
     cursor: pointer;
+}
+
+#latest form {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
 }
