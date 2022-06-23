@@ -50,6 +50,13 @@
     font-weight: 900;
 }
 
+@media (max-width: 1399px) {
+    #latest .latest-products a img {
+        padding: 1.5rem 1.5rem;
+        width: 35rem;
+    }
+}
+
 @media (max-width: 575px) {
     #latest .latest-products a img {
         padding: 1.5rem 1.5rem;
