@@ -1,0 +1,65 @@
+:root {
+    --purple: #182848;
+}
+/* Designing the carousel */
+.carousel {
+    font-size: 3rem;
+}
+
+.carousel .carousel-item .carousel-caption h5{
+    font-size: 2rem;
+}
+
+.carousel .carousel-item .carousel-caption p {
+    font-size: 1.5rem;
+}
+
+.carousel img {
+    height: 90vh;
+    width: 100vw;
+}
+/* End of carousel */
+
+#latest h2 {
+    text-transform: uppercase;
+}
+
+#latest .latest-products {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#latest .latest-products a {
+    color: var(--purple);
+}
+
+#latest .latest-products a img {
+    padding: 1.5rem 1.5rem;
+    width: 40rem;
+}
+
+#latest .latest-products a img:hover {
+    border-bottom: 0.5rem solid var(--purple);
+    cursor: pointer;
+}
+
+#latest form {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+@media (max-width: 1399px) {
+    #latest .latest-products a img {
+        padding: 1.5rem 1.5rem;
+        width: 35rem;
+    }
+}
+
+@media (max-width: 575px) {
+    #latest .latest-products a img {
+        padding: 1.5rem 1.5rem;
+        width: 30rem;
+    }
+}

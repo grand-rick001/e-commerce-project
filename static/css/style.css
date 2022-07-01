@@ -1,0 +1,109 @@
+:root {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    --purple: #182848;
+}
+
+
+/* UTILITIES */
+.active {
+    text-decoration: underline;
+}
+.purple {
+    background-color: var(--purple);
+    color: #fff;
+}
+/* END OF UTILITIRS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #333; */
+    color: var(--purple);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Designing the header */
+header nav {
+    font-size: 2.5rem;
+}
+
+/* Designing the navbar */
+header nav ul.navbar-nav * {
+    margin-right: 1.5rem;
+}
+
+header a.login {
+    border: 0.2rem solid var(--purple);
+    margin-right: 2rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+/* End of navbar */
+
+/* End of header */
+
+main {
+    font-size: 1.5rem;
+}
+
+footer {
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 992px) {
+    /* Designing the navbar */
+    header nav ul.navbar-nav * {
+        margin-right: .5rem;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 789px) {
+    /* Designing the navbar */
+    header nav ul.navbar-nav * {
+        margin-right: .5rem;
+        font-size: 1.5rem;
+    }
+
+    header a.login {
+        border: 0.2rem solid var(--purple);
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 712px) {
+    /* Designing the navbar */
+    header nav ul.navbar-nav * {
+        margin-right: .5rem;
+        font-size: 1.3rem;
+    }
+
+    header a.login {
+        border: 0.2rem solid var(--purple);
+        margin-right: 1rem;
+        font-size: 1rem;
+        padding: .1rem;
+    }
+}
+
+@media (max-width: 575px) {
+    /* Designing the navbar */
+    header nav ul.navbar-nav * {
+        margin-right: .5rem;
+        font-size: 1.5rem;
+    }
+
+    header a.login {
+        border: 0.2rem solid var(--purple);
+        margin-right: 1rem;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
