@@ -6,7 +6,7 @@ from flask_session import Session
 from tempfile import mkdtemp
 from werkzeug.security import check_password_hash, generate_password_hash
 
-from helpers import apology, login_required, lookup, usd
+from helpers import apology, login_required, usd
 
 # Configure application
 app = Flask(__name__)
@@ -40,7 +40,8 @@ def after_request(response):
 # @login_required
 def index():
     """Show homepage"""
-    return render_template("index.html")
+    if request.method == "GET":
+        return render_template("index.html")
 
 # ALL PRODUCTS PAGE
 
